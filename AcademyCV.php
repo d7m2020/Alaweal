@@ -1,4 +1,6 @@
-﻿
+﻿<?php
+include "./include/templates/header.php";
+?>
     <header class="ex-header">
         <div class="container">
             <div class="row">
@@ -319,4 +321,6 @@
     </div> <!-- end of ex-basic-1 -->
         </div>
     <!-- end of basic -->
-
+    <?php
+include "./include/templates/footer.php";
+?>
