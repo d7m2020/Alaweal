@@ -117,5 +117,6 @@
 <script src="./Layout/js/swiper.min.js"></script><!-- Swiper for image and text sliders -->
 <script src="./Layout/js/aos.js"></script><!-- AOS on Animation Scroll -->
 <script src="./Layout/js/script.js"></script>  <!-- Custom scripts -->
+<script src="./Layout/js/backend.js"></script> <!-- MY OWN Script -->
 </body>
 </html>

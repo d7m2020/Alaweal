@@ -1,4 +1,4 @@
-﻿
+﻿<?php include "./include/templates/header.php"; ?>
     <header class="ex-header">
         <div class="container">
             <div class="row">
@@ -18,7 +18,7 @@
                     <div class="text-box mt-5 mb-5 p-4">
                          <h2 class="mb-3"></h2>
                           <div  class="col-lg-5 text-center py-4 py-sm-0" data-aos="fade-down"> 
-                    <img  class="img-fluid"  src="assets/images/News/1.jpg" alt="about" >
+                    <img  class="img-fluid"  src="./Layout/assets/images/News/1.jpg" alt="about" >
                             
                 </div>
                       
@@ -34,7 +34,7 @@
                 <div class="text-box mt-5 mb-5 p-4">
                          <h2 class="mb-3"></h2>
                           <div  class="col-lg-5 text-center py-4 py-sm-0" data-aos="fade-down"> 
-                    <img  class="img-fluid"  src="assets/images/News/13.jpg" alt="about" >
+                    <img  class="img-fluid"  src="./Layout/assets/images/News/13.jpg" alt="about" >
                             
                 </div>
                       رئيس جامعة الاوائل الحديثة في زيارة لجامعة الأحقاف .
@@ -48,7 +48,7 @@
                      <div class="text-box mt-5 mb-5 p-4">
                          <h2 class="mb-3"></h2>
                           <div  class="col-lg-5 text-center py-4 py-sm-0" data-aos="fade-down"> 
-                    <img  class="img-fluid"  src="assets/images/News/12.jpg" alt="about" >
+                    <img  class="img-fluid"  src="./Layout/assets/images/News/12.jpg" alt="about" >
                               </div>
                             مجلس الجامعة يعقد جلسته الاعتيادية 
 بيوم الاحد 27 فبراير 
@@ -72,7 +72,7 @@
                 <div class="text-box mt-5 mb-5 p-4">
                          <h2 class="mb-3"></h2>
                           <div  class="col-lg-5 text-center py-4 py-sm-0" data-aos="fade-down"> 
-                    <img  class="img-fluid"  src="assets/images/News/11.jpg" alt="about" >
+                    <img  class="img-fluid"  src="./Layout/assets/images/News/11.jpg" alt="about" >
                             
                 </div>
                       
@@ -83,7 +83,7 @@
                        <div class="text-box mt-5 mb-5 p-4">
                          <h2 class="mb-3"></h2>
                           <div  class="col-lg-5 text-center py-4 py-sm-0" data-aos="fade-down"> 
-                    <img  class="img-fluid"  src="assets/images/News/10-2.jpg" alt="about" >
+                    <img  class="img-fluid"  src="./Layout/assets/images/News/10-2.jpg" alt="about" >
                             
                 </div>
                      وفد وزارة التعليم العالي يزور جامعة الأوائل الحديثة ويطلع على البرامج والتخصصات العلمية بكليات الجامعة بالمكلا 
@@ -100,7 +100,7 @@
                     <div class="text-box mt-5 mb-5 p-4">
                          <h2 class="mb-3"></h2>
                           <div  class="col-lg-5 text-center py-4 py-sm-0" data-aos="fade-down"> 
-                    <img  class="img-fluid"  src="assets/images/News/9-1.jpg" alt="about" >
+                    <img  class="img-fluid"  src="./Layout/assets/images/News/9-1.jpg" alt="about" >
                             
                 </div>
                       حملة طبية مجانية مشتركة بين جامعة الأوائل الحديثة ومعهد أبن سيناء العالي الطبي بالمكلا 
@@ -116,7 +116,7 @@
                     <div class="text-box mt-5 mb-5 p-4">
                          <h2 class="mb-3"></h2>
                           <div  class="col-lg-5 text-center py-4 py-sm-0" data-aos="fade-down"> 
-                    <img  class="img-fluid"  src="assets/images/News/7.jpg" alt="about" >
+                    <img  class="img-fluid"  src="./Layout/assets/images/News/7.jpg" alt="about" >
                             
                 </div>
                       
@@ -129,7 +129,7 @@
                     <div class="text-box mt-5 mb-5 p-4">
                          <h2 class="mb-3"></h2>
                           <div  class="col-lg-5 text-center py-4 py-sm-0" data-aos="fade-down"> 
-                    <img  class="img-fluid"  src="assets/images/News/8.jpg" alt="about" >
+                    <img  class="img-fluid"  src="./Layout/assets/images/News/8.jpg" alt="about" >
                             
                 </div>
                       
@@ -139,7 +139,7 @@
                                     <div class="text-box mt-5 mb-5 p-4">
                         <h2 class="mb-3"></h2>
                           <div  class="col-lg-5 text-center py-4 py-sm-0" data-aos="fade-down"> 
-                    <img  class="img-fluid"  src="assets/images/News/2.jpg" alt="about" >
+                    <img  class="img-fluid"  src="./Layout/assets/images/News/2.jpg" alt="about" >
                             
                 </div>
                        
@@ -161,7 +161,7 @@
                                  <div class="text-box mt-5 mb-5 p-4">
                         <h2 class="mb-3"></h2>
                           <div  class="col-lg-5 text-center py-4 py-sm-0" data-aos="fade-down"> 
-                    <img  class="img-fluid"  src="assets/images/News/3-2.jpg" alt="about" >
+                    <img  class="img-fluid"  src="./Layout/assets/images/News/3-2.jpg" alt="about" >
                             
                 </div>
                         
@@ -184,7 +184,7 @@
                                  <div class="text-box mt-5 mb-5 p-4">
                         <h2 class="mb-3"></h2>
                           <div  class="col-lg-5 text-center py-4 py-sm-0" data-aos="fade-down"> 
-                    <img  class="img-fluid"  src="assets/images/News/14.jpg" alt="about" >
+                    <img  class="img-fluid"  src="./Layout/assets/images/News/14.jpg" alt="about" >
                             
                 </div>
                         
@@ -217,3 +217,4 @@
         </div>
     <!-- end of basic -->
 
+    <?php include "./include/templates/footer.php"; ?>

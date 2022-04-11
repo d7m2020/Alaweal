@@ -89,7 +89,7 @@
 
 </ul>
                     <div class="my-3">
-                        <a class="btn" href="AdmissionSystemDetails.aspx">للتفاصيل</a>
+                        <a class="btn" href="AdmissionSystemDetails.php">للتفاصيل</a>
                     </div>
                 </div>
                 <div class="col-lg-5 text-center py-4 py-sm-0" data-aos="fade-down">
@@ -266,7 +266,7 @@
                        </p>   </div>
 
                         <div class="my-3">
-                            <a class="btn" href="News.aspx">للتفاصيل</a>
+                            <a class="btn" href="News.php">للتفاصيل</a>
                         </div>
                     </div>
                 </div>
@@ -281,7 +281,7 @@
 عقد مجلس جامعة الأوائل الحديثة اجتماعه الدوري العادي صباح اليوم الاثنين ٢١ مارس ٢٠٢٢ لمناقشة جملة من القضايا من أهمها إقرار نتائج إمتحانات الفصل الدراسي الأول ومقترح بإنشاء مركز اللغات
  </p></div>
                         <div class="my-3">
-                            <a class="btn" href="News.aspx">للتفاصيل</a>
+                            <a class="btn" href="News.php">للتفاصيل</a>
                         </div>
                     </div>
                 </div>
@@ -300,7 +300,7 @@
                          </p>  </div>
 
                         <div class="my-3">
-                            <a class="btn" href="News.aspx">للتفاصيل</a>
+                            <a class="btn" href="News.php">للتفاصيل</a>
                         </div>
                     </div>
                 </div>
