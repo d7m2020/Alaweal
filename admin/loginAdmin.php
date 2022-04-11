@@ -213,7 +213,7 @@ include "../include/templates/header.php";
 
 </ul>
                     <div class="my-3">
-                        <a class="btn" href="grades.aspx">للتفاصيل</a>
+                        <a class="btn" href="grades.php">للتفاصيل</a>
                     </div>
                 </div>
 

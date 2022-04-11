@@ -26,18 +26,18 @@
 
     <!-- Styles -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
-    <link href="../Layout/css/bootstrap.min.css" rel="stylesheet">
-    <link href="../Layout/css/fontawesome-all.min.css" rel="stylesheet">
-    <link href="../Layout/css/aos.min.css" rel="stylesheet">
-    <link href="../Layout/css/swiper.css" rel="stylesheet">
-    <link href="../Layout/css/style.css" rel="stylesheet">
+    <link href="./Layout/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./Layout/css/fontawesome-all.min.css" rel="stylesheet">
+    <link href="./Layout/css/aos.min.css" rel="stylesheet">
+    <link href="./Layout/css/swiper.css" rel="stylesheet">
+    <link href="./Layout/css/style.css" rel="stylesheet">
 
     <!--<link href="css/calendar/site.css" rel="stylesheet" />-->
 
-    <script src="../Layout/js/jquery.js"></script>
-    <link href="../Layout/css/jquery-ui.css" rel="stylesheet" />
-    <script src="../Layout/js/jquery-ui.js"></script>
-    <script src="../Layout/js/jquery-ui.min.js"></script>
+    <script src="./Layout/js/jquery.js"></script>
+    <link href="./Layout/css/jquery-ui.css" rel="stylesheet" />
+    <script src="./Layout/js/jquery-ui.js"></script>
+    <script src="./Layout/js/jquery-ui.min.js"></script>
     <!-- Favicon -->
     <link rel="icon" href="./assets/images/favicon1.png">
   <!-- -->
