@@ -1,4 +1,4 @@
-﻿
+﻿<?php include "./include/templates/header.php"; ?>
     <header class="ex-header">
         <div class="container">
             <div class="row">
@@ -23,7 +23,7 @@
                        
                         <div class="d-flex pt-4">
                                             <div  >
-                                                <img width="150"  height="180" class="img-fluid" src="assets/images/Staff/j.jpg" alt="testimonial">
+                                                <img width="150"  height="180" class="img-fluid" src="./Layout/assets/images/Staff/j.jpg" alt="testimonial">
                                                <h5><b> الاسم:</b>جلال صالح سعيد مرزوق
                                                    <br />    بكالوريوس علوم وآداب وتربية – كلية التربية – قسم الجغرافيا 1994  
                                                </h5>
@@ -52,7 +52,7 @@
                        
                         <div class="d-flex pt-4">
                                             <div  >
-                                                <img width="150"  height="180" class="img-fluid" src="assets/images/Staff/sb.jpg" alt="testimonial">
+                                                <img width="150"  height="180" class="img-fluid" src="./Layout/assets/images/Staff/sb.jpg" alt="testimonial">
                                                <h5><b> الاسم:</b>سالم محمد سالم باشراحيل 
                                                    <br />  بكالوريوس علوم حاسوب – كلية الهندسة والبترول جامعة حضرموت  2002
                                                </h5>
@@ -81,7 +81,7 @@
                        
                         <div class="d-flex pt-4">
                                             <div  class="eng" >
-                                                <img width="150"  height="180" class="img-fluid" src="assets/images/Staff/3.jpg" alt="testimonial">
+                                                <img width="150"  height="180" class="img-fluid" src="./Layout/assets/images/Staff/3.jpg" alt="testimonial">
                                                <h6><b> Name:</b>Afaf Abobakr Mohammed Al-Amodi
                                                    <br />Bachelor in Information Technology in Hadhramout University 2021.
                                                </h6>
@@ -107,7 +107,7 @@
                        
                         <div class="d-flex pt-4">
                                             <div  >
-                                                <img width="150"  height="180" class="img-fluid" src="assets/images/Staff/2.jpg" alt="testimonial">
+                                                <img width="150"  height="180" class="img-fluid" src="./Layout/assets/images/Staff/2.jpg" alt="testimonial">
                                                <h5><b> الاسم:</b>مصطفى محسن سهل 
                                                   <br /> شهادة ثانوية-عامة 2020
                                                </h5>
@@ -155,3 +155,4 @@
         </div>
     <!-- end of basic -->
 
+    <?php include "./include/templates/footer.php"; ?>

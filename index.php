@@ -1,6 +1,4 @@
-﻿<?php
-include "./include/templates/header.php";
-?>
+﻿<?php include "./include/templates/header.php"; ?>
 
       <!-- Home -->
     <section class="home py-5 d-flex align-items-center" id="home">
@@ -70,7 +68,7 @@ include "./include/templates/header.php";
                     </div>-->
                 </div>
                 <div class="col-lg-5 text-center py-4 py-sm-0" data-aos="fade-down">
-                    <img class="img-fluid" src="./assets/images/salem.jpg" alt="about" >
+                    <img class="img-fluid" src="./Layout/assets/images/salem.jpg" alt="about" >
                 </div>
             </div> <!-- end of row -->
         </div> <!-- end of container -->
@@ -95,7 +93,7 @@ include "./include/templates/header.php";
                     </div>
                 </div>
                 <div class="col-lg-5 text-center py-4 py-sm-0" data-aos="fade-down">
-                    <img class="img-fluid" src="./assets/images/about.jpg" alt="about" >
+                    <img class="img-fluid" src="./Layout/assets/images/about.jpg" alt="about" >
                 </div>
             </div> <!-- end of row -->
         </div> <!-- end of container -->
@@ -196,7 +194,7 @@ include "./include/templates/header.php";
         <div class="container"  >
             <div class="row d-flex align-items-center">
                 <div class="col-lg-5 text-center py-4 py-sm-0" data-aos="fade-down">
-                    <img class="img-fluid" src="./assets/images/2.jpg" alt="about" >
+                    <img class="img-fluid" src="./Layout/assets/images/2.jpg" alt="about" >
                 </div>
                 <div class="col-lg-7" data-aos="fade-right">
 
@@ -258,7 +256,7 @@ include "./include/templates/header.php";
                 <div class="col-lg-4">
                     <div class="card bg-transparent px-4">
                         <!-- <%--<h4 class="py-2">BUSINESS BUNDLE</h4>--%> -->
-                        <img src="assets/images/News/1.jpg" alt="...">
+                        <img src="./Layout/assets/images/News/1.jpg" alt="...">
 
                         <div class="block d-flex align-items-center">
                              <p >
@@ -275,7 +273,7 @@ include "./include/templates/header.php";
                                <div class="col-lg-4">
                     <div class="card bg-transparent px-4">
                         <!-- <%--<h4 class="py-2">BUSINESS BUNDLE</h4>--%> -->
-                        <img src="assets/images/News/14.jpg" alt="...">
+                        <img src="./Layout/assets/images/News/14.jpg" alt="...">
 
                         <div class="block d-flex align-items-center">
                              <p >
@@ -290,7 +288,7 @@ include "./include/templates/header.php";
                 <div class="col-lg-4">
                     <div class="card bg-transparent px-4">
                         <!-- <%--<h4 class="py-2">BUSINESS BUNDLE</h4>--%> -->
-                        <img src="assets/images/News/12.jpg" alt="...">
+                        <img src="./Layout/assets/images/News/12.jpg" alt="...">
 
                         <div class="block d-flex align-items-center">
                              <p >

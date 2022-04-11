@@ -25,7 +25,7 @@ include "./include/templates/header.php";
                        
                         <div class="d-flex pt-4">
                                             <div  class="eng" >
-                                                <img width="150"  height="180" class="img-fluid" src="assets/images/Staff/s.jpg" alt="testimonial">
+                                                <img width="150"  height="180" class="img-fluid" src="./Layout/assets/images/Staff/s.jpg" alt="testimonial">
                                                <h6><b> Name:</b> Salem Awad Ramooda 
                                                 <br />     <b>University Rector</b>
                                                    <br /> Ph.D(Structures) INSA Toulouse, France (1987)
@@ -57,7 +57,7 @@ include "./include/templates/header.php";
                        
                         <div class="d-flex pt-4">
                                             <div  class="eng" >
-                                                <img width="150"  height="180" class="img-fluid" src="assets/images/Staff/a.jpg" alt="testimonial">
+                                                <img width="150"  height="180" class="img-fluid" src="./Layout/assets/images/Staff/a.jpg" alt="testimonial">
                                                <h6><b> Name:</b> Abdullah Ahmed Omar Barradi
                                                    <br />Dean, faculty of Engineering.
                                                    <br />PhD in (Technical Sciences) Republic of Ukraine 1999
@@ -89,7 +89,7 @@ include "./include/templates/header.php";
                        
                         <div class="d-flex pt-4">
                                             <div class="eng" >
-                                                <img width="150"  height="180" class="img-fluid" src="assets/images/Staff/k.jpg" alt="testimonial">
+                                                <img width="150"  height="180" class="img-fluid" src="./Layout/assets/images/Staff/k.jpg" alt="testimonial">
                                                <h6><b> Name:</b> Khaled Mohamed Nasser Alkalady
                                                    <br />Dean, faculty of Managerial Sciences.
                                                    <br /> PhD in (Administration management) University of Sudan 2007.
@@ -122,7 +122,7 @@ include "./include/templates/header.php";
                        
                         <div class="d-flex pt-4">
                                             <div  >
-                                                <img width="150"  height="180" class="img-fluid" src="assets/images/Staff/ab.jpg" alt="testimonial">
+                                                <img width="150"  height="180" class="img-fluid" src="./Layout/assets/images/Staff/ab.jpg" alt="testimonial">
                                                <h5><b> الاسم:</b> عبدالله رجب عمر باصديق
                                                    <br />  ماجستير، أدب ونقد 
                                                </h5>
@@ -154,7 +154,7 @@ include "./include/templates/header.php";
                        
                         <div class="d-flex pt-4">
                                             <div  >
-                                                <img width="150"  height="180" class="img-fluid" src="assets/images/Staff/F.jpg" alt="testimonial">
+                                                <img width="150"  height="180" class="img-fluid" src="./Layout/assets/images/Staff/F.jpg" alt="testimonial">
                                                <h5><b> الاسم:</b> فهد صالح بن صديق
                                                    <br /> ماجستير، عقيدة وأديان  
                                                </h5>
@@ -183,7 +183,7 @@ include "./include/templates/header.php";
                        
                         <div class="d-flex pt-4">
                                             <div  class="eng" >
-                                                <img width="150"  height="180" class="img-fluid" src="assets/images/Staff/M.jpg" alt="testimonial">
+                                                <img width="150"  height="180" class="img-fluid" src="./Layout/assets/images/Staff/M.jpg" alt="testimonial">
                                                <h6><b> Name:</b> Mobarek Awadh Obeid Alsabaai
                                                    <br />PhD in (Mathematics) University of  Assiut 2008.
                                                </h6>
@@ -213,7 +213,7 @@ include "./include/templates/header.php";
                        
                         <div class="d-flex pt-4">
                                             <div  class="eng" >
-                                                <img width="150"  height="180" class="img-fluid" src="assets/images/Staff/AS.jpg" alt="testimonial">
+                                                <img width="150"  height="180" class="img-fluid" src="./Layout/assets/images/Staff/AS.jpg" alt="testimonial">
                                                <h6><b> Name:</b> Ahmed Sultan Salmen Bin Sariman
                                                    <br />PhD in (Accounting) University of Malaysia 2016.
                                                </h6>
@@ -244,7 +244,7 @@ include "./include/templates/header.php";
                        
                         <div class="d-flex pt-4">
                                             <div  class="eng" >
-                                                <img width="150"  height="180" class="img-fluid" src="assets/images/Staff/ah.jpg" alt="testimonial">
+                                                <img width="150"  height="180" class="img-fluid" src="./Layout/assets/images/Staff/ah.jpg" alt="testimonial">
                                                <h6><b> Name:</b> Abobakr Muhsin AL-hamid
                                                    <br />PhD in (Comparative literature) University of  South Carolina 1999.
                                                </h6>
@@ -275,7 +275,7 @@ include "./include/templates/header.php";
                        
                         <div class="d-flex pt-4">
                                             <div  class="eng" >
-                                                <img width="150"  height="180" class="img-fluid" src="assets/images/Staff/SA.jpg" alt="testimonial">
+                                                <img width="150"  height="180" class="img-fluid" src="./Layout/assets/images/Staff/SA.jpg" alt="testimonial">
                                                <h6><b> Name:</b> Saleh Abubaker Bin Alsheikh-Abubaker 
                                                       <br />     <b>Advisor to the University Rector</b>
                                                    <br />PhD in Personality Theory, Erfurt, Germany .                              

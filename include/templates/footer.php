@@ -106,7 +106,7 @@
 
 <!-- Back To Top Button -->
 <button onclick="topFunction()" id="myBtn">
-   <img src="assets/images/up-arrow.png" alt="alternative">
+   <img src="./Layout/assets/images/up-arrow.png" alt="footer">
 </button>
 <!-- end of back to top button -->
 

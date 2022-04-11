@@ -39,7 +39,7 @@
     <script src="./Layout/js/jquery-ui.js"></script>
     <script src="./Layout/js/jquery-ui.min.js"></script>
     <!-- Favicon -->
-    <link rel="icon" href="./assets/images/favicon1.png">
+    <link rel="icon" href="./Layout/assets/images/favicon1.png">
   <!-- -->
 
 
@@ -51,7 +51,7 @@
         <div class="container">
 
             <!-- Image Logo -->
-             <a ><img src="images/pic_002.jpg"  alt="alternative" class="img"></a>
+             <a ><img src="./Layout/images/pic_002.jpg"  alt="alternative" class="img"></a>
 
             <!-- Text Logo - Use this if you don't have a graphic logo -->
             <!--<a class="navbar-brand logo-text" href="index.aspx">جامعة الاوائل الحديثة</a>-->
@@ -63,7 +63,7 @@
             <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault" >
                 <ul class="navbar-nav ms-auto navbar-nav-scroll">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.aspx#home">الصفحة الرئيسية</a>
+                        <a class="nav-link active" aria-current="page" href="index.php#home">الصفحة الرئيسية</a>
                     </li>
                      <li class="nav-item">
                         <a class="nav-link" href="index.php#manager">كلمة رئيس الجامعة</a>
