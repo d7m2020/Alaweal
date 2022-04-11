@@ -232,7 +232,7 @@ include "../include/templates/header.php";
                 <p class="para-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae asperiores, quia accusantium sunt corporis optio recusandae? Nostrum libero pariatur cumque, ipsa dolores voluptatibus voluptate alias sit fuga. Itaque, ea quo.</p>
            --%> </div> -->
             <div class="row gy-4 aos-init aos-animate" data-aos="zoom-in">
-                <%--<div class="col-lg-4">
+                <!-- <%--<div class="col-lg-4">
                     <div class="card bg-transparent px-4">
                         <h4 class="py-2">BASIC BUNDLE</h4>
                          <img src="assets/images/work.jpg" class="card-img-top" alt="...">
@@ -253,11 +253,11 @@ include "../include/templates/header.php";
                             <a class="btn" href="#your-link">View Plans</a>
                         </div>
                     </div>
-                </div>--%>
+                </div>--%> -->
 
                 <div class="col-lg-4">
                     <div class="card bg-transparent px-4">
-                        <%--<h4 class="py-2">BUSINESS BUNDLE</h4>--%>
+                        <!-- <%--<h4 class="py-2">BUSINESS BUNDLE</h4>--%> -->
                         <img src="assets/images/News/1.jpg" alt="...">
 
                         <div class="block d-flex align-items-center">
@@ -274,7 +274,7 @@ include "../include/templates/header.php";
                 </div>
                                <div class="col-lg-4">
                     <div class="card bg-transparent px-4">
-                        <%--<h4 class="py-2">BUSINESS BUNDLE</h4>--%>
+                        <!-- <%--<h4 class="py-2">BUSINESS BUNDLE</h4>--%> -->
                         <img src="assets/images/News/14.jpg" alt="...">
 
                         <div class="block d-flex align-items-center">
@@ -289,7 +289,7 @@ include "../include/templates/header.php";
                 </div>
                 <div class="col-lg-4">
                     <div class="card bg-transparent px-4">
-                        <%--<h4 class="py-2">BUSINESS BUNDLE</h4>--%>
+                        <!-- <%--<h4 class="py-2">BUSINESS BUNDLE</h4>--%> -->
                         <img src="assets/images/News/12.jpg" alt="...">
 
                         <div class="block d-flex align-items-center">
