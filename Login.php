@@ -1,4 +1,6 @@
-﻿
+﻿<?php include "./include/templates/header.php"; ?>
+
+<?php include "./conect.php"; ?>
     <header class="ex-header">
         <div class="container">
             <div class="row">
@@ -10,29 +12,30 @@
     </header> <!-- end of ex-header -->
     <!-- end of header -->
  <!-- Basic --> 
-    
+ 
     <div  class="container-fluid" >
             <div class="row">
                 <div class="col-lg-6 d-flex justify-content-center justify-content-lg-end align-items-center px-lg-5" data-aos="fade-right">
                     <div style="width:90%">
                        
-                         <asp:Label ID="lbl" runat="server" ></asp:Label>
+                         <!-- <asp:Label ID="lbl"  ></asp:Label> -->
                            
                                
                                     <div class="form-group py-1">
-                                        <asp:TextBox ID="txtUserName" runat="server" class="form-control form-control-input"  placeholder=" اسم المستخدم "></asp:TextBox>            
+                                        <asp:TextBox ID="txtUserName"  class="form-control form-control-input"  placeholder=" اسم المستخدم "></asp:TextBox>            
                                     </div>     
                                     <div class="form-group py-1">
                                        <asp:TextBox class="form-control form-control-input" id="txtpass" placeholder="كلمة المرور" runat="server" TextMode="Password" ></asp:TextBox>
                                        
                                         <div >
-                                    <asp:Button  class="btn-secondary" ID="btnLogin" runat="server" Text="دخول" OnClick="btnLogin_Click" />
+                                    <asp:Button  class="btn-secondary" ID="btnLogin" Text="دخول"  />
                                             </div>
                                         <div>
-                                            <asp:Label ID="lblMsg" runat="server" ForeColor="Red" ></asp:Label>
+                                            <asp:Label ID="lblMsg"  ForeColor="Red" ></asp:Label>
             </div></div>                                 
                                 </div>
                 </div>
             </div>
       </div>
 
+      <?php include "./include/templates/footer.php"; ?>
