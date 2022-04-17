@@ -17,21 +17,40 @@
             <div class="row">
                 <div class="col-lg-6 d-flex justify-content-center justify-content-lg-end align-items-center px-lg-5" data-aos="fade-right">
                     <div style="width:90%">
-                       
+
+
+                       <?php 
+                       if(isset($_POST['$name']) ){
+                        if($_SERVER['REQUEST_METHOD']=='POST'){
+                            $username1=$_POST['$name'];
+                            $pass=$_POST['pass'];
+                           echo "هلا " . $username1;
+ 
+                        } else{
+                            echo "noo" ;
+                       }
+                       }
+                       else{
+                        echo "hiii" ;
+                       }
+                        
+                      ?>
                          <!-- <asp:Label ID="lbl"  ></asp:Label> -->
-                           
+                           <form calss="login" action="<?php echo $_SERVER['PHP_SELF']?>" method="POST">
                                
                                     <div class="form-group py-1">
-                                        <asp:TextBox ID="txtUserName"  class="form-control form-control-input"  placeholder=" اسم المستخدم "></asp:TextBox>            
+                                        <input type="text" name="name" class="form-control form-control-input"  placeholder=" اسم المستخدم " />           
                                     </div>     
                                     <div class="form-group py-1">
-                                       <asp:TextBox class="form-control form-control-input" id="txtpass" placeholder="كلمة المرور" runat="server" TextMode="Password" ></asp:TextBox>
-                                       
+                                       <input type="password" name="pass" class="form-control form-control-input"  placeholder="كلمة المرور"  />
+                                    </div>
                                         <div >
-                                    <asp:Button  class="btn-secondary" ID="btnLogin" Text="دخول"  />
+                                            <input class="btn-secondary" type="submit" value="Login">
+                                    <!-- <asp:Button   ID="btnLogin" Text="دخول"  /> -->
                                             </div>
+                        </form>
                                         <div>
-                                            <asp:Label ID="lblMsg"  ForeColor="Red" ></asp:Label>
+                                            <!-- <asp:Label ID="lblMsg"  ForeColor="Red" ></asp:Label> -->
             </div></div>                                 
                                 </div>
                 </div>
