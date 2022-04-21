@@ -19,38 +19,27 @@
                 <div class="col-lg-6 d-flex justify-content-center justify-content-lg-end align-items-center px-lg-5" data-aos="fade-right">
                     <div style="width:90%">
 
-                    <?php 
-                       
-                      
-                           if($_SERVER['REQUEST_METHOD']=='POST'){
-                           
-                                $username=$_POST['user'];
-                                $pass=$_POST['pass'];
+                    <?php
+                    if($_SERVER['REQUEST_METHOD']=="POST"){
+                        $t1=$_POST['s1'];
+                        echo $t1;
+                    }else{
+                        echo "test";
+                    }
 
 
-                                $stEcx=$conn->prepare("Select username,Password from appusers where username=? and Password=?");
-                                $stEcx->execute(array($username,$pass));
-                                $count=$stEcx->rowCount();
-                                
-                               echo "هلا " . $count;
-                            }
-                            
-                          
- 
-                        
-                       
-                      
-                      ?>
+?>
                   
                          <!-- <asp:Label ID="lbl"  ></asp:Label> -->
-                           <form  action="<?php echo $_SERVER["PHP_SELF"];?>" method="POST">
+                         
+                           <form  action="<?php echo $_SERVER['PHP_SELF']?>" method="post">
                                
                                     <div class="form-group py-1">
-                                        <input type="text" name="user" class="form-control form-control-input"  placeholder=" اسم المستخدم " />           
+                                        <input type="text" name="s1" class="form-control form-control-input"  placeholder=" اسم المستخدم " />           
                                     </div>     
-                                    <div class="form-group py-1">
+                                    <!-- <div class="form-group py-1">
                                        <input type="password" name="pass" class="form-control form-control-input"  placeholder="كلمة المرور"  />
-                                    </div>
+                                    </div> -->
                                         <div >
                                             <input class="btn-secondary" type="submit" value="Login">
                                     <!-- <asp:Button   ID="btnLogin" Text="دخول"  /> -->

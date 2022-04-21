@@ -1,4 +1,4 @@
-<?php
+ <?php
 $dsn='mysql:host:localhost;dbname=myFirstOne';
 $user='root';
 $pass='';
@@ -13,4 +13,4 @@ $in="INSERT INTO myFirstOne.users (ID, name, age, mobile) VALUES (NULL, 'حسن'
 catch(PDOException $e){
     echo"NOT GOOOD" . $e->getMessage();
 
-}
+} 
