@@ -1,5 +1,10 @@
+<<<<<<< Updated upstream
  <?php
 $dsn='mysql:host:localhost;dbname=myFirstOne';
+=======
+<?php
+/*$dsn='mysql:host:localhost;dbname=myFirstOne';
+>>>>>>> Stashed changes
 $user='root';
 $pass='';
 
@@ -13,4 +18,45 @@ $in="INSERT INTO myFirstOne.users (ID, name, age, mobile) VALUES (NULL, 'حسن'
 catch(PDOException $e){
     echo"NOT GOOOD" . $e->getMessage();
 
+<<<<<<< Updated upstream
 } 
+=======
+}*/
+
+echo gettype(2 + true);
+echo "<br>";
+echo "<br>";
+echo php_uname();
+echo "<br>";
+echo "<br>";
+echo phpversion();
+echo "<br>";
+echo "<br>";
+echo __LINE__;
+echo "<br>";
+echo "<br>";
+echo __FILE__;
+echo "<br>";
+echo "<br>";
+echo __DIR__;
+echo "<br>";
+echo "<br>";
+echo 26 % 10 ;
+echo "<br>";
+echo "<br>";
+echo @$a ;
+echo "<br>";
+echo "<br>";
+echo 10 & false;
+echo "<br>";
+echo "<br>";
+echo "<br>";
+echo "<br>";
+echo "<br>";
+echo "<br>";
+echo "<br>";
+echo "<br>";
+echo "<br>";
+echo "<br>";
+echo "<br>";
+>>>>>>> Stashed changes
