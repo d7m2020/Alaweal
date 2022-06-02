@@ -1,13 +1,28 @@
 <?php
+
 if($_SERVER['REQUEST_METHOD']== "POST"){
+   
     $t1= $_POST['s1'];
-    echo $t1;
+   // echo " $t1 ". (11>11 ? "go" : "b") ." ";
 
+   $s=[1=> "iphone",2=> "radio", 3=>"sony"];
+   function get_gift($num){
+   return $num;
+   
+   }
+   echo $s[get_gift($_POST['s1'])];
 
+   function get_defualtt($name="p",$age=5,$city="j"){
+       $line="<br>ur name is $name and ur old is $age <br> ur city $city";
+       return $line;
 
-}else{
-echo "no";
+   }
+   echo get_defualtt(age:10,city:"jeddah");
 }
+
+// }else{
+// echo "no";
+// }
 
 
 

@@ -1,4 +1,6 @@
-﻿<?php include "./include/templates/header.php"; ?>
+﻿<?php Session_start();
+ print_r($_SESSION);?>
+<?php include "./include/templates/header.php"; ?>
 
 <?php include "./conect.php"; ?>
     <header class="ex-header">
@@ -28,11 +30,18 @@
                                 $pass=$_POST['pass'];
 
 
-                                $stEcx=$conn->prepare("Select username,Password from appusers where username=? and Password=?");
+                                $stEcx=$conn->prepare("Select username,Password from appusers where username=? and Password=? and role in('1','2')");
                                 $stEcx->execute(array($username,$pass));
                                 $count=$stEcx->rowCount();
                                 
-                               echo "هلا " . $count;
+                               if($count > 0){
+                                   $_SESSION['Username']=$username;
+                                   header('Location:Registration.php');
+                                   exit();
+                               }
+                               else{
+                                  echo "NOT GOOD";
+                               }
                             }
                             
                           
