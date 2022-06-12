@@ -1,8 +1,6 @@
-<<<<<<< Updated upstream
+
  <?php
 $dsn='mysql:host:localhost;dbname=myFirstOne';
-=======
-<?php
 /*$dsn='mysql:host:localhost;dbname=myFirstOne';
 >>>>>>> Stashed changes
 $user='root';
@@ -50,13 +48,26 @@ echo "<br>";
 echo 10 & false;
 echo "<br>";
 echo "<br>";
+$t=date("M");
+echo $t;
+echo "<br>";
+echo "<br>";
+$cars=["camry","corlla","nisan"];
+foreach($cars as $car => $index){
+    if($car==1){
+        continue;
+    }
+echo "$car $index<br>";
+
+}
 echo "<br>";
 echo "<br>";
 echo "<br>";
 echo "<br>";
 echo "<br>";
 echo "<br>";
-echo "<br>";
-echo "<br>";
-echo "<br>";
->>>>>>> Stashed changes
+?>
+<html><head></head>
+<body>
+<a href="https://www.w3schools.com" target="_blank">Visit  <?=$dsn?></a>
+</body></html>
