@@ -28,6 +28,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
     <link href="./Layout/css/bootstrap.min.css" rel="stylesheet">
     <link href="./Layout/css/fontawesome-all.min.css" rel="stylesheet">
+    <link href="./Layout/css/fontawesome.min.css" rel="stylesheet">
     <link href="./Layout/css/aos.min.css" rel="stylesheet">
     <link href="./Layout/css/swiper.css" rel="stylesheet">
     <link href="./Layout/css/style.css" rel="stylesheet">

@@ -1,8 +1,8 @@
-﻿<?php Session_start();
- print_r($_SESSION);?>
-<?php include "./include/templates/header.php"; ?>
+﻿<?php Session_start();?>
+<?php ob_start();
+include "./include/templates/header.php";?>
 
-<?php include "./conect.php"; ?>
+<?php include "./conect.php";?>
     <header class="ex-header">
         <div class="container">
             <div class="row">
@@ -22,7 +22,6 @@
                     <div style="width:90%">
 
                     <?php 
-                       
                       
                            if($_SERVER['REQUEST_METHOD']=='POST'){
                            
@@ -35,21 +34,14 @@
                                 $count=$stEcx->rowCount();
                                 
                                if($count > 0){
-                                   $_SESSION['Username']=$username;
-                                   header('Location:Registration.php');
-                                   exit();
+                                  $_SESSION['Username']=$username;
+                                   header('Location: Registration.php');
+                                  exit();
                                }
                                else{
                                   echo "NOT GOOD";
                                }
-                            }
-                            
-                          
- 
-                        
-                       
-                      
-                      ?>
+                            }?>
                   
                          <!-- <asp:Label ID="lbl"  ></asp:Label> -->
                            <form  action="<?php echo $_SERVER["PHP_SELF"];?>" method="POST">

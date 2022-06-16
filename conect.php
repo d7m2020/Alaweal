@@ -9,7 +9,6 @@ try{
     $conn=new PDO($dsn,$user,$pass,$option);
 $conn->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
 
-//echo "Weclome";
 }
 catch(PDOException $e){
     echo "Sorry Try it again" . $e->getMessage() ;
