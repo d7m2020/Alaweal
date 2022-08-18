@@ -1,3 +1,19 @@
+<pre>
+    ahmeddddddd
+       aliiii
+         dddddddd
+</pre>
+<h1>ahemd mohammad<sub>Ali</sub></h1>
+<abbr title="Abdulrhman Mohammad">Tooli</abbr>
+<address>
+    ذهبت الى الحديثة<br>
+    ثم ذهب الى المنزل<br>
+    ولم اكل
+
+</address>
+ذهبت الى الحديثة<br>
+    ثم ذهب الى المنزل<br>
+    ولم اكل
 <?php
 
 if($_SERVER['REQUEST_METHOD']== "POST"){

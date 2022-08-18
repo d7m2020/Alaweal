@@ -32,19 +32,19 @@
                    <h4 class="py-2">روابط سريعة</h4>
                    <div class="d-flex align-items-center py-2">
                        <i class="fas fa-caret-right"></i>
-                       <a href="index.aspx#home"><p class="ms-3">عنا</p></a>
+                       <a href="index.php#home"><p class="ms-3">عنا</p></a>
                    </div>
                    <div class="d-flex align-items-center py-2">
                        <i class="fas fa-caret-right"></i>
-                       <a href="index.aspx#AdmissionSystem"><p class="ms-3">نظام القبول</p></a>
+                       <a href="index.php#AdmissionSystem"><p class="ms-3">نظام القبول</p></a>
                    </div>
                    <div class="d-flex align-items-center py-2">
                        <i class="fas fa-caret-right"></i>
-                       <a href="index.aspx#colleges"><p class="ms-3">الكليات</p></a>
+                       <a href="index.php#colleges"><p class="ms-3">الكليات</p></a>
                    </div>
                    <div class="d-flex align-items-center py-2">
                        <i class="fas fa-caret-right"></i>
-                       <a href="index.aspx#grades"><p class="ms-3">الدرجات</p></a>
+                       <a href="index.php#grades"><p class="ms-3">الدرجات</p></a>
                    </div>
                </div>
            </div> <!-- end of col -->

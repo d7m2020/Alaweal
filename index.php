@@ -100,8 +100,94 @@
     </section> <!-- end of AdmissionSystem -->
 
 
+      
        <!-- Colleges -->
     <section class="services d-flex align-items-center py-5" id="colleges">
+        <div class="container text-light">
+            <div class="text-center pb-4" >
+               <h2 class="py-2">الكليات والتخصصات</h2>  
+                
+                <p class="para-light"></p>
+            </div>
+            <div class="row gy-4 py-2" data-aos="zoom-in">
+                <div class="col-lg-4">
+                    <div class="card bg-transparent">
+                        <i class="fas fa-home fa-2x"></i>
+                        <h4 class="py-2">كلية الهندسة </h4>
+                        <ul><li>
+                            الهندسة المدنية.
+                            </li>
+                            <li>
+                            الهندسة المعمارية.
+
+                            </li>
+                            <li>
+                             هندسة الديكور والتصميم داخلي.
+                            </li>
+                            <li>
+                            هندسه الشبكات والمعلومات.
+
+                            </li>
+                        </ul>
+                        <p class="para-light"></p>
+                    </div>
+                </div>
+              <!--  <div class="col-lg-4">
+                    <div class="card bg-transparent">
+                        <i class="fas fa-wifi fa-2x"></i>
+                        <h4 class="py-2"> HOME WIFI</h4>
+                        <p class="para-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam odit consequatur doloribus natus in suscipit!</p>
+                    </div>                    
+                </div>-->
+              <!--  <div class="col-lg-4">
+                    <div class="card bg-transparent">
+                        <i class="fas fa-phone fa-2x"></i>
+                        <h4 class="py-2">HOME BROADBAND</h4>
+                        <p class="para-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam odit consequatur doloribus natus in suscipit!</p>
+                    </div>                   
+                </div>--> 
+                <div class="col-lg-4">
+                    <div class="card bg-transparent">
+                        <i class="fas fa-mobile fa-2x"></i>
+                        <h4 class="py-2">كلية الاقتصاد والعلوم الإدارية </h4>
+                         <ul><li>
+                             محاسبة وتمويل .
+                            </li>
+                            <li>
+                            إدارة الأعمال الدولية .
+
+
+                            </li>
+                           
+                            <li>
+                           نظم معلومات إدارية .
+
+                            </li>
+                              <li>
+                            اداره أعمال .
+
+
+                            </li>
+                        </ul>
+                    </div>                    
+                </div>
+    <!--            <div class="col-lg-4">
+                    <div class="card bg-transparent">
+                        <i class="fas fa-home fa-2x"></i>
+                        <h4 class="py-2">SECURITY</h4>
+                        <p class="para-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam odit consequatur doloribus natus in suscipit!</p>
+                    </div>                    
+                </div>-->
+               <!-- <div class="col-lg-4">
+                    <div class="card bg-transparent">
+                        <i class="fas fa-tv fa-2x"></i>
+                        <h4 class="py-2">TV SETUP BOX</h4>
+                        <p class="para-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam odit consequatur doloribus natus in suscipit!</p>
+                    </div>                    
+                </div>-->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </section> <!-- end of colleges -->
         <div class="container text-light">
             <div class="text-center pb-4" >
                <h2 class="py-2">الكليات والتخصصات</h2>
@@ -226,43 +312,20 @@
         <div class="container text-light">
             <div class="text-center pb-4">
                <h2 class="py-2">الأخبار</h2>
-                <!-- <%--<h2 class="py-2">الأخبار</h2>
-                <p class="para-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae asperiores, quia accusantium sunt corporis optio recusandae? Nostrum libero pariatur cumque, ipsa dolores voluptatibus voluptate alias sit fuga. Itaque, ea quo.</p>
-           --%> </div> -->
+                
             <div class="row gy-4 aos-init aos-animate" data-aos="zoom-in">
-                <!-- <%--<div class="col-lg-4">
-                    <div class="card bg-transparent px-4">
-                        <h4 class="py-2">BASIC BUNDLE</h4>
-                         <img src="assets/images/work.jpg" class="card-img-top" alt="...">
-                        <div class="block d-flex align-items-center">
-                            <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
-                            <p>Lorem ipsum dolor sit amet.</p>
-                        </div>
-                        <div class="block d-flex align-items-center">
-                            <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
-                            <p>Lorem ipsum dolor sit amet.</p>
-                        </div>
-                        <div class="block d-flex align-items-center">
-                            <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
-                            <p>Lorem ipsum dolor sit amet.</p>
-                        </div>
-                        <h4 class="py-3">$24/Month</h4>
-                        <div class="my-3">
-                            <a class="btn" href="#your-link">View Plans</a>
-                        </div>
-                    </div>
-                </div>--%> -->
+             
 
                 <div class="col-lg-4">
                     <div class="card bg-transparent px-4">
-                        <!-- <%--<h4 class="py-2">BUSINESS BUNDLE</h4>--%> -->
+                        
                         <img src="./Layout/assets/images/News/1.jpg" alt="...">
 
                         <div class="block d-flex align-items-center">
                              <p >
                             رئيس جامعة الأوائل الحديثة يناقش مع وزير التعليم العالي والبحث العلمي والتعليم الفني والمهني
 ناقش الأستاذ الدكتور / سالم رموضة رئيس جامعة الأوائل الحديثة مع معالي وزير التعليم العالي والبحث العلمي والتعليم الفني والتدريب المهني  الأستاذ الدكتور خالد أحمد الوصابي ،
-                          <!--  <a  href="News.aspx">للمزيد...</a>    -->
+                         
                        </p>   </div>
 
                         <div class="my-3">
@@ -272,13 +335,15 @@
                 </div>
                                <div class="col-lg-4">
                     <div class="card bg-transparent px-4">
-                        <!-- <%--<h4 class="py-2">BUSINESS BUNDLE</h4>--%> -->
-                        <img src="./Layout/assets/images/News/14.jpg" alt="...">
+                        
+                        <img src="./Layout/assets/images/News/ad.jpg" alt="...">
 
                         <div class="block d-flex align-items-center">
-                             <p >
-     مجلس جامعة الأوائل الحديثة يعقد إجتماعة الدوري صباح الإثنين 21 مارس 2022م .
-عقد مجلس جامعة الأوائل الحديثة اجتماعه الدوري العادي صباح اليوم الاثنين ٢١ مارس ٢٠٢٢ لمناقشة جملة من القضايا من أهمها إقرار نتائج إمتحانات الفصل الدراسي الأول ومقترح بإنشاء مركز اللغات
+                        <p >
+                              مجموعة الأوائل الحديثة.تعلن عن بدء التسجيل لهذا العام الجديد لمجموعة الأوائل التعليمية وتشمل (جامعة الأوائل الحديثة ومدارس الأوائل الحديثة  للتعليم التمهيدي والتعليم الأساسي والثانوي )
+للتواصل مع المدارس       <a style="text-decoration: underline;" target= _blank href="https://wa.me/+967770119229">اضغط هنا</a>     للتواصل مع الجامعة الرقم الأول      <a style="text-decoration: underline;" target= _blank href="https://wa.me/+967779322333">اضغط هنا</a>   
+                         او على الرقم الثاني   <a style="text-decoration: underline;" target= _blank href="https://wa.me/+966506132479">اضغط هنا</a>
+               
  </p></div>
                         <div class="my-3">
                             <a class="btn" href="News.php">للتفاصيل</a>
@@ -288,14 +353,13 @@
                 <div class="col-lg-4">
                     <div class="card bg-transparent px-4">
                         <!-- <%--<h4 class="py-2">BUSINESS BUNDLE</h4>--%> -->
-                        <img src="./Layout/assets/images/News/12.jpg" alt="...">
+                        <img src="./Layout/assets/images/News/15.jpg" alt="...">
 
                         <div class="block d-flex align-items-center">
-                             <p >
-                       مجلس الجامعة يعقد جلسته الاعتيادية
-بيوم الاحد 27 فبراير
-عقد مجلس الجامعة جلسته الاعتيادية يوم الأحد الموافق ٢٧ فبراير الساعة العاشرة صباحا بقاعة الاجتماعات في الجامعة لمناقشة جملة من القضايا منها:
- مقررات الفصل الدراسي الثاني ومقترح بالأساتذة المدرسين الذين سوف يقومون بتدريسها.
+                        <p >
+                      رئيس جامعة الأوائل الحديثة يلتقي الاخ  أحمد عمر باوزير . مدير المبيعات بشركة المسارات الذكية للخدمات العامة .
+
+التقى الأستاذ الدكتور سالم عوض رموضه رئيس الجامعة في مكتبه صباح الاحد ١٢ يونيو ٢٠٢٢ الأخ أحمد عمر باوزير مدير المبيعات بشركة المسارات الذكية للخدمات العامة. وقد تم في هذا 
 
                          </p>  </div>
 
@@ -346,15 +410,25 @@
                     <div class="p-2"><i class="far fa-map fa-3x"></i></div>
                     <div class="ms-2">
                         <h6>العنوان</h6>
-                        <p>المكلا-الجهة البحرية بجانب مسجد أبي ذر الغفاري</p>
+                        <ul >
+                            <li> <a href="https://goo.gl/maps/mmKfwWsoJevjoSbu7"> 
+                            حضرموت-المكلا-فوة-الانشاءات-مقابل 
+                           رئاسة جامعة حضرموت للوصول للموقع اضغط 
+                           هنا</a></li>
+                                 </ul>
+                       
                     </div>
                 </div>
                 <div class="col-lg-3 d-flex align-items-center" >
                     <div class="p-2"><i class="fas fa-mobile-alt fa-3x"></i></div>
                     <div class="ms-2">
                         <h6>واتساب</h6>
-                        <a href="https://wa.me/+967779322333">779322333 00967</a>
-                        <a href="https://wa.me/+966506132479">506132479 00966</a>
+                        <ul >
+                            <li> <a href="https://wa.me/+967777306263"> للتواصل مع مدير التسجيل الالكتروني أ محمد صلاح القعيطي اضغط هنا</a></li>
+                            <li><a href="https://wa.me/+967779322333"> للتواصل مع مسؤلة شئون الطلاب أ عفاف ابوبكر العمودي اضغط هنا</a></li>
+                            <li> <a href="https://wa.me/+966506132479">للشكاوى والاقتراحات</a></li>
+                            <li><a href="https://chat.whatsapp.com/CUhwPTyMX54B2qpJfnUmB4"> للانضمام لقروب الأوائل اضغط هنا</a> </li>
+                        </ul>
                     </div>
                 </div>
                 <div class="col-lg-3 d-flex align-items-center" >
@@ -368,7 +442,7 @@
                     <div class="p-2"><i class="far fa-clock fa-3x"></i></div>
                     <div class="ms-2">
                         <h6>ساعات العمل</h6>
-                        <p>9 صباحا - 9 مساءا</p>
+                        <p>8 صباحا - 1  ظهرا</p>
                     </div>
                 </div>
             </div> <!-- end of row -->

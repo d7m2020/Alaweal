@@ -46,9 +46,9 @@
                                                 
                                             </div>
                                         </div> </div> <!-- end of text-box -->
-                    <br /> <br />
-                    <h3> إداري</h3>
-                       <div class="text-box2">
+                  <!--   <br /> <br />
+                   
+                      <div class="text-box2">
                        
                         <div class="d-flex pt-4">
                                             <div  >
@@ -74,7 +74,7 @@
                                              
                                                 
                                             </div>
-                                        </div> </div> <!-- end of text-box -->
+                                        </div> </div> --><!-- end of text-box -->
                     <br /> <br />
                             <h3> إدارية</h3>
                        <div dir="ltr" class="text-box2">

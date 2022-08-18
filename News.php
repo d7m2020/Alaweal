@@ -1,5 +1,5 @@
 ﻿<?php include "./include/templates/header.php"; ?>
-    <header class="ex-header">
+<header class="ex-header">
         <div class="container">
             <div class="row">
                 <div class="col-xl-10 offset-xl-1">
@@ -29,9 +29,33 @@
 وفي ختام اللقاء قدم الأستاذ الدكتور سالم رموضه الشكر والتقدير لمعالي الأستاذ الدكتور خالد أحمد الوصابي وزير التعليم العالي والبحث العلمي والتعليم الفني والتدريب المهني والمدراء العموم بالوزارة لتعاونهم الدائم لما من شأنه مصلحة العمل .
                     </div> <!-- end of text-box -->
 
-
-                    
+                     <div class="text-box mt-5 mb-5 p-4">
+                         <h2 class="mb-3"></h2>
+                          <div  class="col-lg-5 text-center py-4 py-sm-0" data-aos="fade-down"> 
+                    <img  class="img-fluid"  src="./Layout/assets/images/News/ad.jpg" alt="about" >
+                            
+                </div> 
+                              مجموعة الأوائل الحديثة..تعلن عن بدء التسجيل لهذا العام الجديد لمجموعة الأوائل التعليمية وتشمل (جامعة الأوائل الحديثة ومدارس الأوائل الحديثة  للتعليم التمهيدي والتعليم الأساسي والثانوي )
+للتواصل مع المدارس       <a style="color:black;text-decoration: underline;" target= _blank href="https://wa.me/+967770119229">اضغط هنا</a>     للتواصل مع الجامعة الرقم الأول      <a style="color:black;text-decoration: underline;" target= _blank href="https://wa.me/+967779322333">اضغط هنا</a>   
+                         او على الرقم الثاني   <a style="color:black;text-decoration: underline;" target= _blank href="https://wa.me/+966506132479">اضغط هنا</a>
+مجموعة الأوائل .صرح علمي وتعليمي كبير  نشأ لريادة التعليم والتعلم والتطوير المستمر في منظومة التعليم والبحث العلمي والتفاعل المحلي والدولي للمجتمع  في هذا الوطن الغالي  من (التمهيدي وحتى الجامعة )
+هدفنا الإستثمار في التعليم  .. وتخريج جيل من اوائل قادة المستقبل  وإعداد خريجين أكفاء قادرين على صنع مستقبل وطنهم وإتاحة برامج تعليمية وفق معايير الجودة والتميز  (الأوائل لاحدود لها)
+               
+                </div><!-- end of text-box -->
+                 
+             
                 <div class="text-box mt-5 mb-5 p-4">
+                         <h2 class="mb-3"></h2>
+                          <div  class="col-lg-5 text-center py-4 py-sm-0" data-aos="fade-down"> 
+                    <img  class="img-fluid"  src="./Layout/assets/images/News/15.jpg" alt="about" >
+                            
+                </div>
+                     رئيس جامعة الأوائل الحديثة يلتقي الاخ  أحمد عمر باوزير . مدير المبيعات بشركة المسارات الذكية للخدمات العامة .
+
+التقى الأستاذ الدكتور سالم عوض رموضه رئيس الجامعة في مكتبه صباح الاحد ١٢ يونيو ٢٠٢٢ الأخ أحمد عمر باوزير مدير المبيعات بشركة المسارات الذكية للخدمات العامة. وقد تم في هذا اللقاء التعرف على تخصصات الجامعة المختلفة التي اعتمدتها وزارة التعليم العالي.
+والجدير بالذكر ان الجامعة لديها تخصصات جديدة تفتح لأول مرة في حضرموت مثل هندسة الديكور والتصميم الداخلي وهندسة الشبكات في كلية الهندسة، وتخصص إدارة الأعمال الدولية في كلية الاقتصاد والعلوم الإدارية. حضر اللقاء الأستاذ مصطفى بن سهل مدير الشؤون الإدارية والمالية بالجامعة.
+                </div><!-- end of text-box -->
+                    <div class="text-box mt-5 mb-5 p-4">
                          <h2 class="mb-3"></h2>
                           <div  class="col-lg-5 text-center py-4 py-sm-0" data-aos="fade-down"> 
                     <img  class="img-fluid"  src="./Layout/assets/images/News/13.jpg" alt="about" >
