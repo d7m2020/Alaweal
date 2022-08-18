@@ -15,7 +15,7 @@
     ثم ذهب الى المنزل<br>
     ولم اكل
 <?php
-
+include "./include/templates/header.php";
 if($_SERVER['REQUEST_METHOD']== "POST"){
    
     $t1= $_POST['s1'];
@@ -47,4 +47,5 @@ if($_SERVER['REQUEST_METHOD']== "POST"){
 <form action="<?php echo $_SERVER['PHP_SELF']?>" method="post">
 <input type="text" name="s1" placeholder="اسمك">
 <input type="submit"  value="login">
+<button class="btn btn-primary" name="test">test</button>
 </from>

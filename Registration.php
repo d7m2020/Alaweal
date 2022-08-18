@@ -1,5 +1,9 @@
 ﻿
 <?php include "./include/templates/header.php"; ?>
+
+<?php include "./include/templates/header.php";?>
+
+
     <header class="ex-header">
         <div class="container">
             <div class="row">
@@ -40,8 +44,13 @@
                              <div class="col-lg-6">
                             <div class="form-group py-2">
                                 <!--  <asp:ImageButton ID="ImageButton1" runat="server" ImageUrl="~/assets/images/calendar.jpg" OnClick="imgBtnDate_Click"  Height="31px" style="margin-top: 16" Width="19px"/>
+
                                
                                  <script  type="text/javascript" >
+
+                               --> 
+                                 <!--<script  type="text/javascript" >
+
                                             $(function () {
                                                 $("#<%=txtBirthDate.ClientID%>").datepicker(
                                                  {
@@ -54,7 +63,7 @@
                                                      yearRange: '1970:2021'
                                                  });
                                          });
-
+                                        -->
                                         
                                  </script>  -->
                                 <input type="text"   class="form-control form-control-input" placeholder="تاريخ الميلاد" name="txtBirthDate"  >
@@ -197,4 +206,10 @@
    </div>
 
 
+
    <?php include "./include/templates/footer.php"; ?>
+
+   <?php
+include "./include/templates/footer.php";
+?>
+
