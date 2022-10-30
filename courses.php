@@ -22,11 +22,16 @@ $fileName="./Layout/images/format.jpg";
 $sql="SELECT * FROM courses LIMIT 0,5";
 
 $resulet=$conn->query($sql);
+//mysqli_query($conn, "SET Name 'utf8'") or die('Can\'t charset in DataBase1');
+//mysqli_query($conn, "SET CHARACTER SET utf8") or die('Can\'t charset in DataBase2');
 $Arabic = new \ArPHP\I18N\Arabic();
 
 $font=realpath('./Layout/webfonts/Amiri-Regular.ttf');
 //$text = 'بسم الله الرحمن الرحيم';
  // $text = $Arabic->utf8Glyphs($text);
+ // $font  = $path.'/GD/ae_AlHor.ttf';
+ //$text = $row['traineeName'];
+ 
  // $font  = $path.'/GD/ae_AlHor.ttf';
 
     //echo "$row[traineeName]<br>";
@@ -36,8 +41,8 @@ $font=realpath('./Layout/webfonts/Amiri-Regular.ttf');
     $img_source=imagecreatefromjpeg($fileName);
     $textcolor=imagecolorallocate($img_source, 0, 0, 255);
     $text = $row['traineeName'];
-   $Arabic->arQueryAllForms($text);
-  
+   $text=$Arabic->utf8Glyphs($text);
+  // $text = $Arabic->utf8Glyphs($row['traineeName']);
    // imagestring($img_source,5,$x,$y,$text,$textcolor); 'Arabic Glyphs:');
    //imagettftext($img_source, 18, 0,$x, $y, $textcolor,$font, 'Arabic Glyphs:');
     imagettftext($img_source, 18, 0,$x, $y, $textcolor,$font, $text);
