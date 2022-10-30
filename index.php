@@ -4,7 +4,7 @@
     <section class="home py-5 d-flex align-items-center" id="home">
         <div class="container text-light py-5"  data-aos="fade-right">
             <h1 > <span class="home_text">  جامعة الأوائل الحديثة</span><br /></h1>
-            <p class="para para-light py-3">جامعة الأوائل الحديثة هي  جامعة خاصة يمنية مقرها الرئيسي المكلا تأسست في عام 2014 تحت مسمى جامعة الأوائل الحديثة,وهي حاصلة على ترخيص رقم 000632-المكلا-حضرموت بسجل تجاري رقم(21/3216)
+            <p class="para para-light py-3">جامعة الأوائل الحديثة هي  جامعة خاصة يمنية مقرها الرئيسي المكلا  تحت مسمى جامعة الأوائل الحديثة,وهي حاصلة على ترخيص رقم 000632-المكلا-حضرموت بسجل تجاري رقم(21/3216)
 
 </p>
             <div class="d-flex align-items-center">
@@ -188,90 +188,7 @@
             </div> <!-- end of row -->
         </div> <!-- end of container -->
     </section> <!-- end of colleges -->
-        <div class="container text-light">
-            <div class="text-center pb-4" >
-               <h2 class="py-2">الكليات والتخصصات</h2>
-
-                <p class="para-light"></p>
-            </div>
-            <div class="row gy-4 py-2" data-aos="zoom-in">
-                <div class="col-lg-4">
-                    <div class="card bg-transparent">
-                        <i class="fas fa-home fa-2x"></i>
-                        <h4 class="py-2">كلية الهندسة </h4>
-                        <ul><li>
-                            هندسة مدنية.
-                            </li>
-                            <li>
-                            هندسة معمارية.
-
-                            </li>
-                            <li>
-                             هندسة ديكور وتصميم داخلي.
-                            </li>
-                            <li>
-                            هندسه شبكات ومعلومات.
-
-                            </li>
-                        </ul>
-                        <p class="para-light"></p>
-                    </div>
-                </div>
-              <!--  <div class="col-lg-4">
-                    <div class="card bg-transparent">
-                        <i class="fas fa-wifi fa-2x"></i>
-                        <h4 class="py-2"> HOME WIFI</h4>
-                        <p class="para-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam odit consequatur doloribus natus in suscipit!</p>
-                    </div>
-                </div>-->
-              <!--  <div class="col-lg-4">
-                    <div class="card bg-transparent">
-                        <i class="fas fa-phone fa-2x"></i>
-                        <h4 class="py-2">HOME BROADBAND</h4>
-                        <p class="para-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam odit consequatur doloribus natus in suscipit!</p>
-                    </div>
-                </div>-->
-                <div class="col-lg-4">
-                    <div class="card bg-transparent">
-                        <i class="fas fa-mobile fa-2x"></i>
-                        <h4 class="py-2">كلية العلوم الإدارية والاقتصاد</h4>
-                         <ul><li>
-                             محاسبة .
-                            </li>
-                            <li>
-                            إدارة أعمال .
-
-
-                            </li>
-                            <li>
-                            اداره أعمال دولية.
-
-
-                            </li>
-                            <li>
-                           نظم معلومات إدارية .
-
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-    <!--            <div class="col-lg-4">
-                    <div class="card bg-transparent">
-                        <i class="fas fa-home fa-2x"></i>
-                        <h4 class="py-2">SECURITY</h4>
-                        <p class="para-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam odit consequatur doloribus natus in suscipit!</p>
-                    </div>
-                </div>-->
-               <!-- <div class="col-lg-4">
-                    <div class="card bg-transparent">
-                        <i class="fas fa-tv fa-2x"></i>
-                        <h4 class="py-2">TV SETUP BOX</h4>
-                        <p class="para-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam odit consequatur doloribus natus in suscipit!</p>
-                    </div>
-                </div>-->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </section> <!-- end of colleges -->
+       
 
 
 

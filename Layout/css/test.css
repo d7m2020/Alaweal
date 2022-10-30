@@ -1,0 +1,126 @@
+h1{
+    background-color: aqua;
+}
+.one::selection{
+    background-color: bisque;
+}
+.one{
+    
+    background-color: gray;
+    margin: 10px;
+    width: 500px;
+    position: relative;
+    counter-increment: test;
+    
+    
+}
+.one:hover{
+    content: attr(data-text);
+    
+}
+.one::before{
+    
+   content: "";
+    width: 10px;
+    height: 10px;
+
+    position:absolute;
+   left: -10;
+   top: 15;
+    background-color: rgb(12, 199, 232);
+    
+}
+.one::after{
+    content: counter(test);
+    width: 10px;
+    
+    position:absolute;
+   right: -12;
+    text-align: center;
+    bottom: 20;
+    background-color: blueviolet;
+    
+}
+.s{
+    background-color: black;
+    position: absolute;
+    width: 20px;
+    height: 50px;
+
+
+}
+.two{
+    
+    background-color: rgb(194, 119, 119);
+    margin: 10px;
+    width: 500px;
+    position: relative;
+    counter-increment: test;
+    
+    
+}
+.two::before{
+    
+    content: "";
+     width: 10px;
+     height: 10px;
+ 
+     position:absolute;
+    left: -10;
+    top: 15;
+     background-color: rgb(12, 199, 232);
+     
+ }
+ .two::after{
+    content: attr(data-txt);
+     display: none;
+     
+ }
+.two:hover::after{
+   display: block;
+}
+.container{
+    display: grid;
+    grid-auto-rows: minmax(20px,auto);
+    gap: 10px;
+  grid-template-areas: 
+  "head head head head"
+  "lfs lfs nav nav"
+  "lfs lfs cont cont"
+  "lfs lfs cont cont"
+  "lfs lfs cont cont"
+  "footer footer footer footer";
+   
+    
+}
+.box{
+    background-color: aqua;
+    
+}
+.box1{
+    grid-area: head;
+    
+}
+.box2{
+    grid-area: lfs;
+   
+}
+.box3{
+    grid-area: nav;
+}
+.box5{
+    grid-area:footer ;
+}
+.box4{
+grid-area: cont;
+display: grid;
+grid-auto-rows: minmax(7px,auto);
+grid-template-columns: repeat(2,1fr);
+gap: 5px;
+}
+.bo{
+    background-color: antiquewhite;
+}
+.boxx5{
+    background-color: black;
+}
