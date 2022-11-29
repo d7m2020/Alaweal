@@ -1,23 +1,26 @@
 ﻿
-<?php include "./include/templates/header.php"; ?>
+<?php Session_start();?>
+<?php ob_start();
+include "./include/templates/header.php";?>
 
-<?php include "./include/templates/header.php";?>
-
-
+<?php include "./conect.php";?>
     <header class="ex-header">
         <div class="container">
             <div class="row">
                 <div class="col-xl-10 offset-xl-1">
-                    <h1> تسجيل الطالب</h1>
+                    <h1> صفحة الدخول</h1>
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
         </div> <!-- end of container -->
     </header> <!-- end of ex-header -->
     <!-- end of header -->
- <!-- Basic -->
-  
-        <div class="container-fluid" >
+ <!-- Basic --> 
+ 
+    <div  class="container-fluid" >
+    
             <div class="row">
+  
+        
             <form method="post" >
                 <div class="col-lg-6 d-flex justify-content-center justify-content-lg-end align-items-center px-lg-5" data-aos="fade-right">
                     <div style="width:90%">
