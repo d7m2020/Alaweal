@@ -24,16 +24,16 @@ include "./include/templates/header.php";?>
 
                     <?php 
                       if(isset($_POST['reg'])){
-                     $firstName=$_POST["firstName"];
-                     $lastName=$_POST["lastName"];
+                     $course_name=$_POST["course_name"];
+                     $course_Date=$_POST["course_Date"];
                      $mobile=$_POST["mobile"];
 
-                     if(empty($firstName)||empty($lastName)||empty($mobile)){
+                     if(empty($course_name)||empty($course_Date)){
                          $error= "<div class='alert-danger'> فضلا ادخل كامل الحقول </div>";
                      }
                      else{
                          $query="INSERT INTO course (id, course_name, course_Date, Name2)
-                          VALUES (NULL, '', '', NULL)
+                          VALUES (NULL, '$course_name', '$course_Date', NULL)
                          ";
                          $res=mysqli_query($conn,$query);
                          if(isset($res)){
@@ -53,13 +53,11 @@ include "./include/templates/header.php";?>
                            <form  action="<?php echo $_SERVER["PHP_SELF"];?>" method="POST">
                              
                                     <div class="form-group py-1">
-                                        <input type="text" name="firstName" class="form-control form-control-input"  placeholder=" اسم الدورة   " />           
+                                        <input type="text" name="course_name" class="form-control form-control-input"  placeholder=" اسم الدورة   " />           
                                     </div>     
                                     <div class="form-group py-1">
-                                        <input type="text" name="lastName" class="form-control form-control-input"  placeholder=" تاريخ الدورة " />           
-                                    </div>     <div class="form-group py-1">
-                                        <input type="text" name="mobile" class="form-control form-control-input"  placeholder=" رقم الجوال " />           
-                                    </div>   
+                                        <input type="date" name="course_Date" class="form-control form-control-input"  placeholder=" تاريخ الدورة " />           
+                                    </div>    
                                         <div >
                                             <input class="btn-secondary" type="submit" name="reg" value="تسجيل">
                                     <!-- <asp:Button   ID="btnLogin" Text="دخول"  /> -->
