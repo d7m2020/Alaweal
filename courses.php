@@ -20,7 +20,7 @@ require "./include/templates/fpdf/fpdf.php";
 $fileName="./Layout/images/format.jpg";
 //mysql_query("set traineeName utf8");
 
-$sql="SELECT * FROM courses LIMIT 0,5";
+$sql="SELECT * FROM course_main LIMIT 0,5";
 
 $resulet=$conn->query($sql);
 //mysqli_query($conn, "SET Name 'utf8'") or die('Can\'t charset in DataBase1');
